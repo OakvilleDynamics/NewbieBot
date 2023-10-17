@@ -4,8 +4,15 @@
 
 package frc.robot.subsystems;
 
-import edu.wpi.first.wpilibj2.command.CommandBase;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
-public class ExampleSubsystem extends SubsystemBase {
+public class PowerDistribution extends SubsystemBase {
+
+  /** Creates a new PowerDistribution. */
+  public PowerDistribution() {}
+
+  @Override
+  public void periodic() {
+    // This method will be called once per scheduler run
+  }
 }
