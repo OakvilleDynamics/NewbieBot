@@ -3,7 +3,7 @@ Main Driver=joysticks big joystick for driving
 2nd Drriver PS4 controller button not yet detrimend for arm.
 To get code on robot
 1st Start robot.
-2nd one you have a blue or orange light on wifi on radio go into wifi seettings and look for 8719,8719B,and 9999.
+2nd one you have a blue or orange light on wifi on radio go into wifi seettings and look for 8719,8719B,and 9999. or 8719dnamicco
 one you are configured goo grab a USB-B cable.
 goo into roborio imaging tool and find 8719 for unde roborio.
 build code. if build is sucessfull then deploy code if build failed see garrett or tony.
