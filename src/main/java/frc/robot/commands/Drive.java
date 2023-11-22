@@ -13,34 +13,26 @@ import frc.robot.subsystems.Drivetrain;
 public class Drive extends CommandBase {
 
   // The subsystem the command runs on
-  private final Drivetrain m_subDrivetrain;
+  /private final Drivetrain m_subDrivetrain;
 
   // The controller the command runs on
-  private final Joystick m_driverController =
-      new Joystick(Constants.ControllersConstants.driverControllerPort);
+ // private final Joystick m_driverController ;
+  //    new Joystick(Constants.ControllersConstants.driverControllerPort);
 
   /**
    * Creates a new Drive command.
    *
    * @param subsystem The subsystem used by this command.
    */
-  public Drive(Drivetrain subsystem) {
+  //public Drive(Drivetrain subsystem) {
     m_subDrivetrain = subsystem;
-    addRequirements(subsystem);
-
-    SmartDashboard.putData(subsystem);
-  }
-
-  /** Called when the command is initially scheduled. */
-  @Override
-  public void initialize() {
-    System.out.println("Drive initialized");
+   
   }
 
   /** Called every time the scheduler runs while the command is scheduled. */
   @Override
   public void execute() {
-    m_subDrivetrain.arcadeDrive(m_driverController.getX(), m_driverController.getY());
+   // m_subDrivetrain.arcadeDrive(m_driverController.getX(), m_driverController.getY());
   }
 
   /** Called once the command ends or is interrupted. */

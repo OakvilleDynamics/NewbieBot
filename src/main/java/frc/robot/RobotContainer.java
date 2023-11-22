@@ -18,14 +18,10 @@ import frc.robot.subsystems.*;
  */
 public class RobotContainer {
   // The robot's subsystems and commands are defined here...
-  private static final RobotContainer m_robotContainer = new RobotContainer();
+  //private static final RobotContainer m_robotContainer = new RobotContainer();
 
   public final Drivetrain m_drivetrain = new Drivetrain();
   public final Pneumatics m_pneumatics = new Pneumatics();
-
-  // Replace with CommandPS4Controller or CommandJoystick if needed
-  private final CommandXboxController m_driverController =
-      new CommandXboxController(OperatorConstants.kDriverControllerPort);
 
   /** The container for the robot. Contains subsystems, OI devices, and commands. */
   public RobotContainer() {
