@@ -13,12 +13,6 @@ package frc.robot;
  * constants are needed, to reduce verbosity.
  */
 public final class Constants {
-<<<<<<< HEAD
-  public final int rightMotor1=2;
-  public final int rightMotor2=3;
-public final int leftMotor1=5
-
-=======
   // Hardware CAN IDs
   public class HardwareConstants {
     public static final int powerDistribution = 2;
@@ -53,5 +47,4 @@ public final int leftMotor1=5
     public static final int pistonButtonOpen = 1;
     public static final int pistonButtonClose = 2;
   }
->>>>>>> 653a22f7e8bda1dc43939c83c9b25e15344335e1
 }
